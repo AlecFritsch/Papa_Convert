@@ -1,0 +1,12 @@
+docling>=1.0.0
+unoserver>=2.0.0
+PyQt6>=6.6.0
+Pillow>=10.0.0
+pillow-heif>=0.15.0
+python-magic-bin>=0.4.14; platform_system == "Windows"
+watchdog>=3.0.0
+PyPDF2>=3.0.0
+cairosvg>=2.7.0
+ebooklib>=0.18
+pdf2image>=1.16.0
+markdown-pdf>=1.0.0

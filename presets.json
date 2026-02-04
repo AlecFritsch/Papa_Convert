@@ -1,0 +1,64 @@
+{
+  "presets": [
+    {
+      "name": "📧 E-Mail Anhang",
+      "description": "Optimiert für E-Mail-Versand (kleine Dateigröße)",
+      "format": "pdf",
+      "options": {
+        "quality": 1,
+        "preserve_layout": true,
+        "ocr": false
+      }
+    },
+    {
+      "name": "📄 Archivierung",
+      "description": "Beste Qualität für langfristige Speicherung",
+      "format": "pdf",
+      "options": {
+        "quality": 3,
+        "preserve_layout": true,
+        "ocr": true
+      }
+    },
+    {
+      "name": "✏️ Bearbeitung",
+      "description": "Konvertiert zu editierbarem Format",
+      "format": "docx",
+      "options": {
+        "quality": 2,
+        "preserve_layout": true,
+        "ocr": false
+      }
+    },
+    {
+      "name": "🌐 Web-Publishing",
+      "description": "Optimiert für Webseiten",
+      "format": "html",
+      "options": {
+        "quality": 2,
+        "preserve_layout": true,
+        "ocr": false
+      }
+    },
+    {
+      "name": "💻 Developer",
+      "description": "Markdown für Entwickler",
+      "format": "markdown",
+      "options": {
+        "quality": 2,
+        "preserve_layout": false,
+        "ocr": false
+      }
+    },
+    {
+      "name": "🎨 Präsentation",
+      "description": "PowerPoint-Format",
+      "format": "pptx",
+      "options": {
+        "quality": 2,
+        "preserve_layout": true,
+        "ocr": false
+      }
+    }
+  ]
+}
